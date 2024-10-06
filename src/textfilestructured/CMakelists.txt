@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Set the project name and version
+project(structuredFileExample VERSION 1.0 LANGUAGES C)
+
+# Add the executable
+add_executable(textfilestructured textfilestructured.c)
